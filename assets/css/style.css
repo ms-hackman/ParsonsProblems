@@ -1,0 +1,5 @@
+@import "{{ site.theme }}";
+
+.sortable-code {
+  width: 56%;
+}
