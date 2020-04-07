@@ -10,40 +10,48 @@ title: Multiple Parson's Problems on One Page
 ## Parsons 1 (Line Based Grader)
 Re-arrange the blocks below so they print out "Hello World!"
 
-<div id="p1-sortableTrash" class="sortable-code"></div>
-<div id="p1-sortable" class="sortable-code"></div>
-<div style="clear:both;"></div>
-<p>
-    <input id="p1-feedbackLink" value="Get Feedback" type="button" />
-    <input id="p1-newInstanceLink" value="Reset Problem" type="button" />
-</p>
-<script type="text/javascript">
-(function() {
-  var initial = "print(\"Hello\")\n" +
-    "print(\" \")\n" +
-    "print(\"World\")\n" +
-    "print(\"!\")";
+<div id="q1-sortableTrash" class="sortable-code"></div> 
+<div id="q1-sortable" class="sortable-code"></div> 
+<div style="clear:both;"></div> 
+<p> 
+    <input id="q1-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="q1-newInstanceLink" value="Reset Problem" type="button" /> 
+</p> 
+<script type="text/javascript"> 
+(function(){
+  var initial = "let x = 5;\n" +
+    "if(x > 5){\n" +
+    "	print(\"bigger\");\n" +
+    "}\n" +
+    "else if(x < 5){\n" +
+    "	print(\"smaller\");\n" +
+    "}\n" +
+    "else{\n" +
+    "	print(\"equal\");\n" +
+    "}\n" +
+    "int x = 5; #distractor\n" +
+    "else (x == 5){ #distractor";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "p1-sortable",
-    "max_wrong_lines": 10,
+    "sortableId": "q1-sortable",
+    "max_wrong_lines": 2,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
-    "can_indent": false,
+    "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "trashId": "p1-sortableTrash"
+    "trashId": "q1-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#p1-newInstanceLink").click(function(event){
-      event.preventDefault();
-      parsonsPuzzle.shuffleLines();
-  });
-  $("#p1-feedbackLink").click(function(event){
-      event.preventDefault();
-      parsonsPuzzle.getFeedback();
-  });
-})();
+  $("#q1-newInstanceLink").click(function(event){ 
+      event.preventDefault(); 
+      parsonsPuzzle.shuffleLines(); 
+  }); 
+  $("#q1-feedbackLink").click(function(event){ 
+      event.preventDefault(); 
+      parsonsPuzzle.getFeedback(); 
+  }); 
+})(); 
 </script>
 
 
