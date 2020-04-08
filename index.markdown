@@ -18,7 +18,7 @@ if(<i>boolean expression</i>){
 </code>
 We refer to the if statement + boolean expression + code to run as an <b> if block.</b>
 
-<button id="code1" onClick="myFunction()"> Hide Code 1 </button>
+<button onClick="myFunction('code1')"> Hide Code 1 </button>
 
 <div id="code1">
 <code>
@@ -27,9 +27,9 @@ console.log("Hello World");
 </div>
 
 <script>
-    function myFunction(event) {
+    function myFunction(name) {
         console.log(event);
-      var x = document.getElementById(event.target.id);
+      var x = document.getElementById(name);
       if (x.style.display === "none") {
         x.style.display = "block";
       } else {
