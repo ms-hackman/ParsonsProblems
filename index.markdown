@@ -22,7 +22,7 @@ We refer to the if statement + boolean expression + code to run as an <b> if blo
 
 <button onClick="myFunction('code1')"> Hide Code 1 </button>
 
-<div id="code1">
+<div id='code1'>
 <code>
 console.log("Hello World");
 </code>
@@ -38,6 +38,26 @@ console.log("Hello World");
       }
     }    
 </script>
+    
+Boolean expressions can be made up of any code that evaluates to <b> true or false </b>. Examples of boolean expressions include:
+
+<code>
+  X > 7 //is true if x is greater than 7, otherwise is false\n
+  Y <= 10 //is true if y is less than OR EQUAL TO 10, otherwise it is false\n
+  Z === 30 // checks if z is equal to 30. Note in p5js we use three equal signs to check if things are equal  \n 
+</code>
+
+<b>Note a boolean variable is ALREADY a boolean expression.</b> So the following code would actually display “Yes, Ms. Hackman is very very very cool.” (regardless of how true you think that statement actually is.
+
+<code>
+let isCool = true;\n
+if(isCool){\n
+console.log(“Yes, Ms. Hackman is very very very cool.”);\n
+}\n
+</code>
+
+The code we want to run if our if statement is true must live between two curly brackets {}. It is a common bug to forget one of your curly brackets, or to accidentally put code inside the brackets, you meant to be outside (or put code outside the brackets you meant to put inside), so be careful!
+
 ## Question 1:
 
 
