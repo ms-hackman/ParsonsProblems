@@ -4,6 +4,7 @@
 
 layout: default
 title: Ms. Hackman's If/else if/else Notes & Problems
+description: Read through the following notes on if, else if ,
 ---
 
 We’ve already seen simple uses of if statements in class but let’s review and get a bit more complex!
@@ -16,8 +17,27 @@ if(<i>boolean expression</i>){
 }    
 </code>
 We refer to the if statement + boolean expression + code to run as an <b> if block.</b>
+
+<button id="code1" onClick="myFunction()"> Hide Code 1 </button>
+
+<div id="code1">
+<code>
+console.log("Hello World");
+</code>
+</div>
+
+<script>
+    function myFunction(event) {
+        console.log(event);
+      var x = document.getElementById(event.target.id);
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }    
+</script>
 ## Question 1:
-Re-arrange the blocks below so they print out "Hello World!"
 
 
 
