@@ -4,7 +4,7 @@
 
 layout: default
 title: Ms. Hackman's If/else if/else Notes & Problems
-description: Read through the following notes on if, else if ,
+description: Read through the following notes on if, else if , and else statements. Embeded in the notes are examples to try. Some of them require dragging and droppin code into the right order, the others require you to write some code on the <a href="https://editor.p5js.org/">p5js editor</a>. Click the <i>See Answer</i> buttons to see the solutions. 
 ---
 <!-- Function for hiding code!  -->
 <script>
