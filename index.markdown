@@ -23,9 +23,9 @@ We’ve already seen simple uses of if statements in class but let’s review an
 If statements allow us to run parts of our code only run when certain conditions are met. These “conditions” must be written as  <b>true or false</b>  statements. True or false statements are called  <b>boolean expressions .</b>
 
 <code>
-if(<i>boolean expression</i>){<br />
-    <i>code to run</i><br />
-}  <br />
+if(<i>boolean expression</i>){<br >
+    <i>code to run</i><br >
+}  <br >
 </code>
 
 
@@ -43,18 +43,18 @@ console.log("Hello World");
 Boolean expressions can be made up of any code that evaluates to <b> true or false </b>. Examples of boolean expressions include:
 
 <code>
-  X > 7 //is true if x is greater than 7, otherwise is false<br />
-  Y <= 10 //is true if y is less than OR EQUAL TO 10, otherwise it is false<br />
-  Z === 30 // checks if z is equal to 30. Note in p5js we use three equal signs to check if things are equal <br />
+  X > 7 //is true if x is greater than 7, otherwise is false<br >
+  Y <= 10 //is true if y is less than OR EQUAL TO 10, otherwise it is false<br>
+  Z === 30 // checks if z is equal to 30. Note in p5js we use three equal signs to check if things are equal <br>
 </code>
 
 <b>Note a boolean variable is ALREADY a boolean expression.</b> So the following code would actually display “Yes, Ms. Hackman is very very very cool.” (regardless of how true you think that statement actually is.
 
 <code>
-let isCool = true;<br />
-if(isCool){<br />
-console.log(“Yes, Ms. Hackman is very very very cool.”);<br />
-}<br />
+let isCool = true;<br >
+if(isCool){<br >
+console.log(“Yes, Ms. Hackman is very very very cool.”);<br>
+}<br>
 </code>
 
 The code we want to run if our if statement is true must live between two curly brackets {}. It is a common bug to forget one of your curly brackets, or to accidentally put code inside the brackets, you meant to be outside (or put code outside the brackets you meant to put inside), so be careful!
