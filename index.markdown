@@ -12,10 +12,12 @@ We’ve already seen simple uses of if statements in class but let’s review an
 If statements allow us to run parts of our code only run when certain conditions are met. These “conditions” must be written as  <b>true or false</b>  statements. True or false statements are called  <b>boolean expressions .</b>
 
 <code>
-if(<i>boolean expression</i>){
-    <i>code to run</i>
-}    
+if(<i>boolean expression</i>){\n
+    <i>code to run</i>\n
+}    \n
 </code>
+
+
 We refer to the if statement + boolean expression + code to run as an <b> if block.</b>
 
 <button onClick="myFunction('code1')"> Hide Code 1 </button>
@@ -28,7 +30,6 @@ console.log("Hello World");
 
 <script>
     function myFunction(name) {
-        console.log(event);
       var x = document.getElementById(name);
       if (x.style.display === "none") {
         x.style.display = "block";
