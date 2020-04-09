@@ -94,13 +94,6 @@ Drag code from the left box to the rigth and put it in order such that the code 
 })(); 
 </script>
 
-### Example 2
-
-Which if statement does the else statement in this code belong to?
-
-
-
-
 
 [Previous](https://ms-hackman.github.io/ParsonsProblems/)
 [Next](./elseif.html)
