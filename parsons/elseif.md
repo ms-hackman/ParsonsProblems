@@ -43,6 +43,28 @@ This code will determine what school a student attends based on their current gr
 
 
 <b>NOTE:</b>The order of our if statements are important. Your code checks each if statement in order, from top to bottom.  Consider the following example:<br>
+<code>
+let grade = 4;<br>
+if(grade <=9){<br>
+&nbsp;&nbsp;&nbsp;&nbsp;console.log(“This student is in junior high school”);<br>
+}<br>
+else if(grade <= 6 ){<br>
+&nbsp;&nbsp;&nbsp;&nbsp;console.log(“This student is in elementary!”); }<br>
+else{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;console.log(“This student is in high school!”);<br>
+}<br>
+</code>
+
+## Exercise 1
+What will this code currently print out? 
+<button onClick="myFunction('schoolanswer')"> Show Answer </button>
+
+<div id='schoolanswer' style="display:none;" >
+<i> This Code will print out <code>This student is in junior high</code> because the code is run in order from top to bottom. The first if statement is true, because grade 4 is less than 9, and so it prints out the student is in junior high. Since only one of our if/else if/else statements can be run, skip the else if and else statement.   </i><br>
+</div>
+
+Rewrite the grade checking code above to only use greater than signs (>) to correctly identify the student's school level. 
+<b> Note there are EXTRA lines of code here that are not necessary for the solution. Do not expect you need to use all the lines of code </b><br>
 <div id="school1-sortableTrash" class="sortable-code"></div> 
 <div id="school1-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -87,30 +109,8 @@ This code will determine what school a student attends based on their current gr
   }); 
 })(); 
 </script>
-<code>
-let grade = 4;<br>
-if(grade <=9){<br>
-&nbsp;&nbsp;&nbsp;&nbsp;console.log(“This student is in junior high school”);<br>
-}<br>
-else if(grade <= 6 ){<br>
-&nbsp;&nbsp;&nbsp;&nbsp;console.log(“This student is in elementary!”); }<br>
-else{<br>
-&nbsp;&nbsp;&nbsp;&nbsp;console.log(“This student is in high school!”);<br>
-}<br>
-</code>
 
-## Exercise 1
-What will this code currently print out? 
-<button onClick="myFunction('schoolanswer')"> Show Answer </button>
-
-<div id='schoolanswer' style="display:none;" >
-<i> This Code will print out <code>This student is in junior high</code> because the code is run in order from top to bottom. The first if statement is true, because grade 4 is less than 9, and so it prints out the student is in junior high. Since only one of our if/else if/else statements can be run, skip the else if and else statement.   </i><br>
-</div>
-
-Rewrite the grade checking code above to only use greater than signs (>) to correctly identify the student's school level. 
-<b> Note there are EXTRA lines of code here that are not necessary for the solution. Do not expect you need to use all the lines of code </b><br>
-
-<button onClick="myFunction('schoolhint')"> Show Answer </button>
+<button onClick="myFunction('schoolhint')"> Show Hint </button>
 
 <div id='schoolhint' style="display:none;" >
 <i> Remember there are three cases!<br>
