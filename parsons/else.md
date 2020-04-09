@@ -45,9 +45,9 @@ The output would be "Bigger than 5!" since 10 > 5 returns true. When the if stat
 </div>
 
 
-##Examples
+## Examples
 
-###Example 1
+### Example 1
 Drag code from the left box to the rigth and put it in order such that the code determines whether or not someone should pay for their cake based on if it is their birthday. The variable isBirthday is a boolean variable that is true when it is someone's birthday. 
 <b> Remember to properly indent your code (code that is INSIDE an if block or an else block is indented). </b> 
 
