@@ -32,6 +32,63 @@ if(x > 5){<br>
 &nbsp;&nbsp;&nbsp;&nbsp;console.log(“Smaller or equal to 5!”); }<br>
 </code>
 
+The output would be "Smaller or equal to 5!", because 4 > 5 returns <i> false</i> and so we do NOT run our if block code. The else block gets run whenever its if statement is false.
+
+What would happen if x was 10 instead?
+
+<button onClick="myFunction('ex1')"> Show Answer </button>
+
+<div id='ex1'>
+<code>
+The output would be "Bigger than 5!" since 10 > 5 returns true. When the if statement is true, we skip the else statement.
+</code>
+</div>
+
+
+##Examples
+
+###Example 1
+Drag code from the left box to the rigth and put it in order such that the code determines whether or not someone should pay for their cake based on if it is their birthday. The variable isBirthday is a boolean variable that is true when it is someone's birthday. 
+<div id="ex1-sortableTrash" class="sortable-code"></div> 
+<div id="ex1-sortable" class="sortable-code"></div> 
+<div style="clear:both;"></div> 
+<p> 
+    <input id="ex1-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="ex1-newInstanceLink" value="Reset Problem" type="button" /> 
+</p> 
+<script type="text/javascript"> 
+(function(){
+  var initial = "if(isBirthday){\n" +
+    "    console.log(\"This cake is free since it's your birthday today!\");\n" +
+    "}\n" +
+    "else{\n" +
+    "	console.log(\"That cake will be $7.99 please\");\n" +
+    "}";
+  var parsonsPuzzle = new ParsonsWidget({
+    "sortableId": "ex1-sortable",
+    "max_wrong_lines": 2,
+    "grader": ParsonsWidget._graders.LineBasedGrader,
+    "exec_limit": 2500,
+    "can_indent": true,
+    "x_indent": 50,
+    "lang": "en",
+    "trashId": "ex1-sortableTrash"
+  });
+  parsonsPuzzle.init(initial);
+  parsonsPuzzle.shuffleLines();
+  $("#ex1-newInstanceLink").click(function(event){ 
+      event.preventDefault(); 
+      parsonsPuzzle.shuffleLines(); 
+  }); 
+  $("#ex1-feedbackLink").click(function(event){ 
+      event.preventDefault(); 
+      parsonsPuzzle.getFeedback(); 
+  }); 
+})(); 
+</script>
+
+
+
 
 [Previous](https://ms-hackman.github.io/ParsonsProblems/)
-[Next](./example2.html)
+[Next](./elseif.html)
