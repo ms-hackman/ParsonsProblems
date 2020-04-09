@@ -2,6 +2,7 @@
 layout: default
 title: Ms. Hackman's If/else if/else Notes & Problems
 <!-- description: Read through the following notes on if, else if , and else statements. Embeded in the notes are examples to try. Some of them are interactive on this site, requiring you to drag and code blocks into the right order to solve a problem. Others require you to write some code in the <a href="https://editor.p5js.org/">p5js editor</a> and then click the <i>See Answer</i> buttons to see a solution. After you've completed this, return to google classroom to do this week's assignment. -->
+description:  
 ---
 
 <!-- Function for hiding code!  -->
@@ -10,7 +11,11 @@ title: Ms. Hackman's If/else if/else Notes & Problems
       var x = document.getElementById(name);
       if (x.style.display === "none") {
         x.style.display = "block";
-      } else {
+      } 
+      else if(x.style.display ==="first"){
+          x.style.display="none";         
+      }
+      else {
         x.style.display = "none";
       }
     }    
@@ -38,7 +43,7 @@ What would happen if x was 10 instead?
 
 <button onClick="myFunction('ex1')"> Show Answer </button>
 
-<div id='ex1' style.display="none">
+<div id='ex1' style.display="first">
 <code>
 The output would be "Bigger than 5!" since 10 > 5 returns true. When the if statement is true, we skip the else statement.
 </code>
