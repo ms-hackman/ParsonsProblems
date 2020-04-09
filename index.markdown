@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ms. Hackman's If/else if/else Notes & Problems
-description: Read through the following notes on if, else if , and else statements. Embeded in the notes are examples to try. Some of them are interactive on this site, requiring you to drag and code blocks into the right order to solve a problem. Others require you to write some code in the <a href="https://editor.p5js.org/">p5js editor</a> and then click the <i>See Answer</i> buttons to see a solution. After you've completed this, return to google classroom to do this week's assignment.
+description: Read the notes. Embeded in the notes are examples to try.  After you've completed this, return to google classroom to do this week's assignment.
 ---
 <!-- Function for hiding code!  -->
 <script>
