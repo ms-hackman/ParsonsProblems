@@ -50,6 +50,7 @@ Boolean expressions can be made up of any code that evaluates to <b> true or fal
   X > 7 //is true if x is greater than 7, otherwise is false<br >
   Y <= 10 //is true if y is less than OR EQUAL TO 10, otherwise it is false<br>
   Z === 30 // checks if z is equal to 30. Note in p5js we use three equal signs to check if things are equal <br>
+  A !== 17 // check if A is NOT equal to 17. Note in p5js we use two equal signs after the exclamation poitn <br>
 </code>
 
 <b>Note a boolean variable is ALREADY a boolean expression.</b> So the following code would actually display “Yes, Ms. Hackman is very very very cool.” (regardless of how true you think that statement actually is.
