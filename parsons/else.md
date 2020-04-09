@@ -43,10 +43,7 @@ What would happen if x was 10 instead?
 
 <button onClick="myFunction('ex1')"> Show Answer </button>
 
-<div id='ex1' >
-    <style>
-    .display="first"
-    </style>
+<div id='ex1' style="display:first;" >
 <code>
 The output would be "Bigger than 5!" since 10 > 5 returns true. When the if statement is true, we skip the else statement.
 </code>
@@ -96,6 +93,11 @@ Drag code from the left box to the rigth and put it in order such that the code 
   }); 
 })(); 
 </script>
+
+### Example 2
+
+Which if statement does the else statement in this code belong to?
+
 
 
 
