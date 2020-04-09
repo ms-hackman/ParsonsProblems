@@ -26,7 +26,7 @@ description:
 
 # Else If Statements
 
-Now what if we have more than two possible situations? We can add “else if” blocks between our if and else statement to create multiple possibilities. For example:
+Now what if we have more than two possible situations? We can add “else if” blocks between our if and else statement to create multiple possibilities. For example:<br>
 <code>
 let grade = 4;<br>
 if(grade <=6){<br>
@@ -107,6 +107,12 @@ Assuming you have variables numCats and numDogs which tell you how many cats and
 })(); 
 </script>
 
+<button onClick="myFunction('doghint1')"> Show Hint </button>
+
+<div id='doghint1' style="display:none;" >
+<i> Hint: Remeber using an if and an else statement means one OR the other happens. In this situation, we pay per cat AND dog so we do not want to use an else statement. </i>
+</div>
+
 ### Apartment 2
 <div id="dogs2-sortableTrash" class="sortable-code"></div> 
 <div id="dogs2-sortable" class="sortable-code"></div> 
@@ -148,6 +154,11 @@ Assuming you have variables numCats and numDogs which tell you how many cats and
   }); 
 })(); 
 </script>
+<button onClick="myFunction('doghint2')"> Show Hint </button>
+
+<div id='doghint2' style="display:none;" >
+<i> Hint: Remeber using an if and an else statement means one OR the other happens. In this situation, we either pay the dog or the cat fee. So we only want to pay one fee or the other.  </i>
+</div>
 
 
 In Example 1, we want to use two if statements 
