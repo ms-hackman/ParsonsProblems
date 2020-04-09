@@ -33,5 +33,5 @@ if(x > 5){<br>
 </code>
 
 
-[Previous](/../../)
+[Previous](https://ms-hackman.github.io/ParsonsProblems/)
 [Next](./example2.html)
