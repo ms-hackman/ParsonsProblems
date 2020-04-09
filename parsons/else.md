@@ -65,10 +65,10 @@ Drag code from the left box to the rigth and put it in order such that the code 
 <script type="text/javascript"> 
 (function(){
   var initial = "if(isBirthday){\n" +
-    "    console.log(\"This cake is free since it's your birthday today!\");\n" +
+    "    console.log(\"This birthday cake is free!\");\n" +
     "}\n" +
     "else{\n" +
-    "	console.log(\"That cake will be $7.99 please\");\n" +
+    "	console.log(\"This cake will be $7.99 please\");\n" +
     "}";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "ex1-sortable",
