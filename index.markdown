@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ms. Hackman's If/else if/else Notes & Problems
-description: Read the notes. Embeded in the notes are examples to try.  After you've completed this, return to google classroom to do this week's assignment.
+description: Read the notes. Embeded in the notes are examples to try. <br>  After you've completed this, return to google classroom to do this week's assignment.
 ---
 <!-- Function for hiding code!  -->
 <script>
