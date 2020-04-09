@@ -55,7 +55,7 @@ else{<br>
 }<br>
 </code>
 
-## Exercise 1
+## Exercise 2
 What will this code currently print out? 
 <button onClick="myFunction('schoolanswer')"> Show Answer </button>
 
@@ -138,7 +138,7 @@ I refer to a connected set of if/elseif/else statements as a  chain. An if state
 
 These if statements are  <b>not<b>  chained. Only <i>else if</i> or <i>else</i> blocks can attach to a chain.  In this case, when the first if statement is true, we don’t skip the second if statement since they’re not connected.  Both of them  are true so both of console.log statements will run. 
     
-## Exercise 2
+## Exercise 3
 Consider the following scenario. You are looking at moving into one of two apartments. Both apartments have special monthly fees for owning pets and both charge $900 for monthly rent. <br>
 
 <b>Apartment 1</b> charges you a fee of $20 for the first dog and $5 for each dog after that, and $10 dollars for your first cat and $3 for each cat after that. <br>
@@ -244,4 +244,4 @@ Assuming you have variables numCats and numDogs which tell you how many cats and
 </div>
 
 [Previous](./else.html)
-<!-- [Next](./elseif.html) -->
+[Next](./moreelseif.html)
