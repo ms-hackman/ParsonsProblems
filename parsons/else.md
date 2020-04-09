@@ -27,9 +27,9 @@ So in this code:
 <code>
 let x = 4;<br>
 if(x > 5){<br>
-&emsp console.log(“Bigger than 5!”);<br>
+&emsp;console.log(“Bigger than 5!”);<br>
 } else{<br>
-&emspconsole.log(“Smaller or equal to 5!”); }<br>
+&emsp;console.log(“Smaller or equal to 5!”); }<br>
 </code>
 
 
