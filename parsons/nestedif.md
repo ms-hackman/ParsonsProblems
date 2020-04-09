@@ -24,5 +24,5 @@ layout: default
 # Nested If Statements
 
 
-[Previous](./elseif.html)
+[Previous](./moreelseif.html)
 [Next](./nestedif.html)
