@@ -44,7 +44,9 @@ What would happen if x was 10 instead?
 <button onClick="myFunction('ex1')"> Show Answer </button>
 
 <div id='ex1' >
-    .style.display="first"
+    <style>
+    .display="first"
+    </style>
 <code>
 The output would be "Bigger than 5!" since 10 > 5 returns true. When the if statement is true, we skip the else statement.
 </code>
