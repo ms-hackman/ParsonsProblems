@@ -57,7 +57,7 @@ Boolean expressions can be made up of any code that evaluates to <b> true or fal
 <code>
 let isCool = true;<br >
 if(isCool){<br >
-console.log(“Yes, Ms. Hackman is very very very cool.”);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;console.log(“Yes, Ms. Hackman is very very very cool.”);<br>
 }<br>
 </code>
 
