@@ -25,7 +25,7 @@ If statements allow us to run parts of our code only run when certain conditions
 
 <code>
 if(<i>boolean expression</i>){<br >
-    <i>code to run</i><br >
+&nbsp;&nbsp;&nbsp;&nbsp; <i>code to run</i><br >
 }  <br >
 </code>
 
