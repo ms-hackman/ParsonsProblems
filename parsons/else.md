@@ -25,7 +25,7 @@ description:
     
 <style>
 .ui-sortable {
-    width: 700px;
+    width: 1000px;
 }    
 </style>
 
