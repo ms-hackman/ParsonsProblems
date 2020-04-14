@@ -97,5 +97,27 @@ Rewrite the  code above so it prints out “This child is too young for school�
 })(); 
 </script>
 
+<button onClick="myFunction('schoolSolution1')"> Show Answer </button>
+
+<div id='schoolSolution1' style="display:none;" >
+<code>
+if(grade <0>){<br>
+&nbsp;&nbsp;&nbsp;&nbsp;console.log("This child is too young for school!");<br>
+}<br>
+else if(grade <=6>){<br>
+&nbsp;&nbsp;&nbsp;&nbsp;console.log(“This student is in elementary school!”);<br>
+}<br>
+else if(grade <=9>){<br>
+&nbsp;&nbsp;&nbsp;&nbsp;console.log(“This student is in junior high school!”);<br>
+}<br>
+else if(grade <=12>){<br>
+&nbsp;&nbsp;&nbsp;&nbsp;console.log(“This student is in high= school!”);<br>
+}<br>
+else{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;console.log(“This person has graduated!”);<br>
+}<br>
+</code>
+</div>
+
 [Previous](./elseif.html)
 [Next](./nestedif.html)
