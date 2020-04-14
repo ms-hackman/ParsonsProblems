@@ -19,7 +19,7 @@ layout: default
 </script>
 <style>
 .ui-sortable {
-    width: 700px;
+    width: 1000px;
 }    
 </style>
 <!-- End of scripting functions! -->
