@@ -125,6 +125,21 @@ Rewrite the grade checking code above to only use greater than signs (>) to corr
 What order do we need to check these three cases so that a grade 12 student is placed in high school?</i><br>
 </div>
 
+<button onClick="myFunction('ex3solution')"> Show Solution </button>
+
+<div id='ex3solution' style="display:none;" >
+<code>
+if(grade >9){<br>
+&nbsp;&nbsp;&nbsp;&nbsp;console.log("This student is in high school");<br>
+}<br>
+else if(grade > 6){<br>
+&nbsp;&nbsp;&nbsp;&nbsp;console.log("This student is in junior high!");<br>
+}<br>
+else{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;console.log("This student is in elementary school");<br>
+}<br>
+</code>
+</div>
 
 ## If/Else if/Else Chains
 
@@ -165,10 +180,10 @@ Assuming you have variables numCats and numDogs which tell you how many cats and
 (function(){
   var initial = "let total = 900;\n" +
     "if(numDogs >=1){\n" +
-    "	total +=  $20 + (numDogs -1)*5;\n" +
+    "	total +=  20 + (numDogs -1)*5;\n" +
     "}\n" +
     "if(numCats >=1){\n" +
-    "	total += $10 + (numCats - 1)*3;\n" +
+    "	total += 10 + (numCats - 1)*3;\n" +
     "} \n" +
     "else if(numCats >=1){ #distractor\n" +
     "else if(numDogs >=1){ #distractor";
@@ -199,6 +214,20 @@ Assuming you have variables numCats and numDogs which tell you how many cats and
 
 <div id='doghint1' style="display:none;" >
 <i> Hint: Remeber using an if and an else statement means one OR the other happens. In this situation, we pay per cat AND dog so we do not want to use an else statement. </i><br>
+</div>
+
+<button onClick="myFunction('dogsolution1')"> Show Answer </button>
+
+<div id='dogsolution1' style="display:none;" >
+<code>
+let total = 900;<br>
+if(numDogs >=1){<br>
+&nbsp;&nbsp;&nbsp;&nbsp;total += 20 + (numDogs-1)*5;<br>
+}<br>
+if(numCats >=1){<br>
+&nbsp;&nbsp;&nbsp;&nbsp;total += 10 + (numCats-1)*3;<br>
+}<br>
+</code>
 </div>
 
 ### Apartment 2
@@ -246,6 +275,21 @@ Assuming you have variables numCats and numDogs which tell you how many cats and
 
 <div id='doghint2' style="display:none;" >
 <i> Hint: Remeber using an if and an else statement means one OR the other happens. In this situation, we either pay the dog or the cat fee. So we only want to pay one fee or the other.  </i><br>
+</div>
+
+
+<button onClick="myFunction('dogSolution2')"> Show Answer </button>
+
+<div id='dogSolution2' style="display:none;" >
+<code>
+let total = 900;<br>
+if(numDogs >=1){<br>
+&nbsp;&nbsp;&nbsp;&nbsp;total += 60;<br>
+}<br>
+else if(numCats >=1){<br>
+&nbsp;&nbsp;&nbsp;&nbsp;total += 40;<br>
+}<br>
+</code>
 </div>
 
 [Previous](./else.html)
