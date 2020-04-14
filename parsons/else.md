@@ -22,6 +22,12 @@ description:
 </script>
 <!-- End of scripting functions! -->
     
+    
+<style>
+.ui-sortable {
+    width: 700px;
+}    
+</style>
 
 
 # Else Statements
@@ -52,7 +58,7 @@ The output would be "Bigger than 5!" since 10 > 5 returns true. When the if stat
 
 ## Exercise 1
 
-Drag code from the left box to the rigth and put it in order such that the code determines whether or not someone should pay for their cake based on if it is their birthday. The variable isBirthday is a boolean variable that is true when it is someone's birthday. 
+Drag these lines of code to put them in the correct order. This code should determine whether or not someone should pay for their cake based on if it is their birthday. The variable isBirthday is a boolean variable that is true when it is someone's birthday. 
 <b> Remember to properly indent your code (code that is INSIDE an if block or an else block is indented). </b> 
 
 <div id="ex1-sortableTrash" class="sortable-code"></div> 
