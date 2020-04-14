@@ -52,7 +52,7 @@ This code determines if someone should go for a hike based on whether or not it 
 
 To achieve this effect, we use a <b> nested</b> if statement. This code has a main if/else chain to check if it is sunny, and there is a <b>nested</b> if/else chain inside our original else block, which checks if the user has a raincoat. This code will ONLY get run if we enter that else block. 
 
-###Exercise 5
+### Exercise 5
 What would this code print out if <code>isSunny</code> is false and <code>haveRaincoat</code> is false?
 
 <button onClick="myFunction('rainanswer1')"> Show Answer </button>
@@ -65,7 +65,7 @@ What would this code print out if <code>isSunny</code> is false and <code>haveRa
  
  It's also important to note that we can tell which if statement an else statement belongs to  by checking which if block it is touching. Each else statement is immediately after the closing parenthesis of the if statement (or else if statement) it belongs to. <br>
 
-###Exercise6
+### Exercise6
 Rearrange the code blocks below to modify the hiking example so it will first check to see if the user has hiking boots. it will only bother checking if the user can go hiking if they already have hiking boots. Use the boolean variable <code>haveHikingBoots</code> to represent if the user has hiking boots. <br>
 
 
@@ -114,4 +114,4 @@ Rearrange the code blocks below to modify the hiking example so it will first ch
 </script>
 
 [Previous](./moreelseif.html)
-[Next](./nestedif.html)
+<!-- [Next](./nestedif.html) -->
