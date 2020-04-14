@@ -98,7 +98,18 @@ Drag these lines of code into the solution box and put them in the correct order
   }); 
 })(); 
 </script>
+<button onClick="myFunction('ex1solution')"> Show Solution </button>
 
+<div id='ex1solution' style="display:none;" >
+<code>
+if(isBirthday){<br>
+&nbsp;&nbsp;&nbsp;&nbsp;console.log("This birthday cake is free!");<br>
+}<br>
+else{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;console.log("This cake will be $7.99 please");<br>
+}<br>
+</code>
+</div>
 
 [Previous](https://ms-hackman.github.io/ParsonsProblems/)
 [Next](./elseif.html)
