@@ -87,7 +87,7 @@ Rearrange the code blocks below to modify the hiking example so it will first ch
     "    		console.log(\"Go for a hike, but don't forget your raincoat!\");\n" +
     "		}\n" +
     "    	else{\n" +
-    "    		console.log(\"Beast not go today. Try again tomorrow!\");\n" +
+    "    		console.log(\"Best not go today. Try again tomorrow!\");\n" +
     "    	}\n" +
     "	}\n" +
     "}";
@@ -112,6 +112,28 @@ Rearrange the code blocks below to modify the hiking example so it will first ch
   }); 
 })(); 
 </script>
+
+
+<button onClick="myFunction('rainySolution1')"> Show Answer </button>
+
+<div id='rainySolution1' style="display:none;" >
+<code>
+if(haveHikingBoots){<br>
+&nbsp;&nbsp;&nbsp;&nbsp;if(isSunny){<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.log("Sure, go for a hike! It's really nice out!");<br>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;else {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(haveRaincoat){<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.log("Go for a hike, but don't forget your raincoat!");<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.log("Best not go today. Try again tomorrow!");<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+}<br>
+
+</code>
+</div>
 
 [Previous](./moreelseif.html)
 <!-- [Next](./nestedif.html) -->
