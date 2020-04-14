@@ -20,6 +20,11 @@ description:
       }
     }    
 </script>
+<style>
+.ui-sortable {
+    width: 700px;
+}    
+</style>
 <!-- End of scripting functions! -->
     
 
