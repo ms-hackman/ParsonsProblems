@@ -65,7 +65,7 @@ What would this code print out if <code>isSunny</code> is false and <code>haveRa
  
  It's also important to note that we can tell which if statement an else statement belongs to  by checking which if block it is touching. Each else statement is immediately after the closing parenthesis of the if statement (or else if statement) it belongs to. <br>
 
-### Exercise6
+### Exercise 6
 Rearrange the code blocks below to modify the hiking example so it will first check to see if the user has hiking boots. it will only bother checking if the user can go hiking if they already have hiking boots. Use the boolean variable <code>haveHikingBoots</code> to represent if the user has hiking boots. <br>
 
 
